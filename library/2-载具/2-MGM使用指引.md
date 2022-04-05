@@ -2,39 +2,42 @@
 
 
 
-# GTAhaxUI教程及界面使用操作指引
-
-
+# MGM使用指引
 
 
 [TOC]
 ##  必要的前置操作
 - 游戏必须设置为窗口模式或无边窗口模式
-- 必须先开启游戏再打开gtahaxui
-- 应当使用对应游戏版本的gtahaxui
+- 必须先开启游戏再打开MGM
+- 应当使用对应游戏版本的MGM
 
 ##  简要描述
 
-- 目前大家所最多使用的（GTAOL)stat编辑器是 GTAhaxUI，其操作界面简单易懂
+- 由CE脚本生成的程序
 - ![](assets/1-g/1-2.png=300-)
+
+
+
+
+[](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=4754f65e829153fddb3356df40efa212)
 
 ## 全局（Global）代码使用示例
 -    ` Global_262145.f_30658=1 `
 
-- ![](assets/1-g/2-2.png=300-)
+- ![](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=66bdc0f56e36a3b752aea984500059ec)
 - 如图所示，全局代码编辑步骤：红→黄→绿→蓝(写入)
 此区域为全局（Global）代码编辑
 ## （int）代码使用示例
 - `$MP0_HEIST_PLANNING_STAGE
      -1`
-- ![](assets/1-g/3-2.png=300-)
+![](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=a876094c3b72470f38d791ab0ab5bc5e)
 - 如图所示，（int）代码编辑步骤：红→黄→绿(int更改)
 - 此区域为（int）代码编辑
 - 部分此类代码需要在特定地点使用，如设施等室内
 - 部分此类代码在使用后需要更换战局以刷新
 ## （bool）代码使用示例
 - `$MP0_LOW_FLOW_CS_FIN_SEEN  (true) (bool)`
-- ![](assets/1-g/4-2.png=300-)
+- ![](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=59a9e44aa1fed4a9a18be6e8acf26eb4)
 - 如图所示，（bool）代码编辑步骤：红→黄(bool锁定)
 - 此区域为（bool）代码编辑
 - 游戏内需要先戴好一顶可以拉上拉下护目镜的帽子
@@ -42,13 +45,13 @@
 - 备注为（flase）（bool）代码与上一条操作相反
 - 如果状态已经解锁，则使用该类代码时游戏内护目镜无反应
 ## 导入使用示例
-- ![](assets/1-g/5-2.png=300-)
+- ![](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=61eeaeb84ef1811a5db978df6b6a1636)
 - 如图所示，导入代码直接点击导入即可
 - 此区域为导入代码
 - 在同一文件夹内，gtahaxui.exe可以导入stat.txt内的代码
 - stat.txt代码规范→头为：int32 下附int代码及数值
 - 使用条件与（int）一致
-
+-
 ## 特别说明
 - `$MPX_CHAR_SET_RP_GIFT_ADMIN //// Add MP0_ or MP1_`
 - 在实际使用中，代码前必须要添加符号$

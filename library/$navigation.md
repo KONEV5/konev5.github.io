@@ -12,8 +12,8 @@
     - [KID扩展脚本](?file=1-人物&状态/02-KID脚本/001-KID扩展脚本 "KID扩展脚本")
 
 ##### 载具
-- [lschax使用指引](?file=2-载具/1-lschax使用指引 "lschax使用指引")
-- [mgm使用指引](?file=2-载具/2-mgm使用指引 "mgm使用指引")
+- [LSCHAX使用指引](?file=2-载具/1-LSCHAX使用指引 "LSCHAX使用指引")
+- [MGM使用指引](?file=2-载具/2-MGM使用指引 "MGM使用指引")
 - **稀有载具**
 - **稀有配件载具**
 
