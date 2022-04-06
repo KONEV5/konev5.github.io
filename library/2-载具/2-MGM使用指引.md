@@ -14,50 +14,39 @@
 ##  简要描述
 
 - 由CE脚本生成的程序
-- ![](assets/1-g/1-2.png=300-)
+- ![](assets/1-g/6-2.png=300-)
 
 
+## MGM使用介绍
+-   如图，改车步骤基本为1 2 3 4
+其中 1 为玩家自己的载具列表<br>2为系统载具列表 <br>mgm是个非常好用的工具
+可以及时呼叫已有载具，没有cd<br>
+最重要的功能是可以实现moc替换bug<br>
+从1玩家载具列表可以发现自己拥有的载具，点击呼叫即可呼出<br>
+从玩家载具列表选取一个载具之后<br>再从2系统载具选取一个载具<br>点击
+3转换载具<br> 4呼出载具<br>此时就已经实现了moc替换bug
+这时就可以去改车店赋值想要的东西了<br>
+例如变成班尼车去班尼 改班尼轮胎<br>
+变成f1购买f1轮胎<br>
+理论上所有的载具都可以获得f1轮胎<br>
+像moc、恐霸， 飞机 还有防空炮车，ceo特殊载具等<br>
+有些载具是被锁死低配，不能购买升级选项的会被系统复原。<br>
 
-
-[](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=4754f65e829153fddb3356df40efa212)
-
-## 全局（Global）代码使用示例
--    ` Global_262145.f_30658=1 `
-
-- ![](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=66bdc0f56e36a3b752aea984500059ec)
-- 如图所示，全局代码编辑步骤：红→黄→绿→蓝(写入)
-此区域为全局（Global）代码编辑
-## （int）代码使用示例
-- `$MP0_HEIST_PLANNING_STAGE
-     -1`
-![](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=a876094c3b72470f38d791ab0ab5bc5e)
-- 如图所示，（int）代码编辑步骤：红→黄→绿(int更改)
-- 此区域为（int）代码编辑
-- 部分此类代码需要在特定地点使用，如设施等室内
-- 部分此类代码在使用后需要更换战局以刷新
-## （bool）代码使用示例
-- `$MP0_LOW_FLOW_CS_FIN_SEEN  (true) (bool)`
-- ![](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=59a9e44aa1fed4a9a18be6e8acf26eb4)
-- 如图所示，（bool）代码编辑步骤：红→黄(bool锁定)
-- 此区域为（bool）代码编辑
-- 游戏内需要先戴好一顶可以拉上拉下护目镜的帽子
-- 此类代码在点击(bool锁定)前，游戏内护目镜拉下，点击(bool锁定)后，游戏内护目镜会自动拉上，此时在游戏内拉下护目镜则完成代码使用操作
-- 备注为（flase）（bool）代码与上一条操作相反
-- 如果状态已经解锁，则使用该类代码时游戏内护目镜无反应
-## 导入使用示例
-- ![](https://www.showdoc.com.cn/server/api/attachment/visitFile?sign=61eeaeb84ef1811a5db978df6b6a1636)
-- 如图所示，导入代码直接点击导入即可
-- 此区域为导入代码
-- 在同一文件夹内，gtahaxui.exe可以导入stat.txt内的代码
-- stat.txt代码规范→头为：int32 下附int代码及数值
-- 使用条件与（int）一致
--
+## 关于原理
+- 所有的自行车 飞机 坦克 炮车 跑车 越野车等，都叫载具<br>
+因此，抽象一点，自行车变成跑车 的时候时四个轮胎<br>变成摩托车的时候还是俩轮胎<br>
+都叫载具<br>只是显示的画面不同而已<br>能不能显示出来<br>
+我们可以将载具转换，<br>为其购买不同的选项来赋值属性以获得原本没有的属性<br>
+这样，我们就可以获得稀有配件载具了<br>
+例如崔佛的小熊万用行者<br>
+先变成f1，购买前翼-低前翼<br>
+此时属性已经变了<br>
+再变回万用行者<br>
+再购买原厂前杠，即可发现是带小熊的。<br>
 ## 特别说明
-- `$MPX_CHAR_SET_RP_GIFT_ADMIN //// Add MP0_ or MP1_`
-- 在实际使用中，代码前必须要添加符号$
-- 非导入代码，mp0为主角色，mp1为第二角色，不能使用mpx
-- 导入的代码可以直接填为mpx，会自动应用于当前角色
-- mpply起的代码为全局，不需要区分角色
+- 夜总会载具不要开到竞技场和ceo车库改车，否则可能造成数据损坏不可修复<br>
+虽然不影响使用，但是会在原来的位置不显示<br>
+有用lschax刷车无法卖掉的也可以变成挽歌卖掉来清理载具。<br>
 
 ## 备注
 

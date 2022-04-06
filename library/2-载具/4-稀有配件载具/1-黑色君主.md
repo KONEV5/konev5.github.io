@@ -2,7 +2,7 @@
 
 
 
-# lschax使用指引
+# MGM使用指引
 
 
 [TOC]
