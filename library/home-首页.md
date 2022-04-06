@@ -10,5 +10,3 @@
 
 
  微信公众号：GTA6CLUB
-
-POWR BY[ [GTMD](https://gantamade.com) ]
