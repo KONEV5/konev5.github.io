@@ -37,7 +37,7 @@
 点击刷新
 复制套装代码（ctrl+c是粘贴快捷键）
 点击从粘贴板导入
-
+- 演示视频：https://cloud.189.cn/web/share?code=AraAbqUjuIFn（访问码：nef2）
 
 
 ## 服装代码
