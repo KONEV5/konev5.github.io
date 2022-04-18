@@ -44,7 +44,10 @@
 - gtawiki：https://wiki.rage.mp/index.php?title=Clothes<BR>
 - 男女角色服装的代码大部分都不同
 
-
+## 套装代码
+### 在GTMD社区可参与分享
+- 男性分享页 https://gantamade.com/d/12-bincohax
+- 女性角色分享页 https://gantamade.com/d/11-bincohax
 
 ## 服装黑名单
 - 如果未解锁服装，则服装属于黑名单，可能不能保存至套装
