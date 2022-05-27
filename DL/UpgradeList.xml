@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Upgrade>
+   <UpgradeUrl>http://doc.gantamade.com/DL</UpgradeUrl>
+   <RunMain>ECI.exe</RunMain> 
+   <AutoUpgrade>AutoUpgrade.exe</AutoUpgrade>
+   <Files>
+		<File Version="1.59.1" Name= "KONEV\stat.txt" />
+		<File Version="1.59.1" Name= "KONEV\使用说明.txt" />
+		<File Version="1.59.1" Name= "scripts\地堡600.lua" />
+		<File Version="1.59.1" Name= "scripts\抢劫任务.lua" />
+		<File Version="1.59.1" Name= "3.exe" />
+		<File Version="1.59.1" Name= "UpgradeList.xml" />
+		<File Version="1.59.1" Name= "BincoHaXUI.exe" />
+		<File Version="1.59.1" Name= "ECI.exe" />
+		<File Version="1.59.1" Name= "GTAHaXUI.exe" />
+		<File Version="1.59.1" Name= "Kiddion.exe" />
+		<File Version="1.59.1" Name= "Kiddion_Chs.exe" />
+
+     </Files>
+</Upgrade>
